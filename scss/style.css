@@ -585,6 +585,18 @@ a:link, a:visited, a:active {
   width: 9em;
 }
 
+.historia {
+  background-color: black;
+}
+
+.titulo {
+  color: #1B2F62;
+}
+
+.titulo-1 {
+  color: rgb(255, 128, 0);
+}
+
 footer {
   height: 100px;
 }

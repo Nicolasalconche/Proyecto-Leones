@@ -1,5 +1,5 @@
 .principio{
-    background-image: url(../assets/hernan.png);
+    background-image: url(../assets/hernan.png); 
     background-position: -160px;
 }
 
@@ -53,4 +53,16 @@
    
    .botoncito:hover::before {
     width: 9em;
+   }
+
+   .historia{
+    background-color: black;
+   }
+
+   .titulo{
+    color: #1B2F62;
+   }
+
+   .titulo-1{
+    color:rgba(255,128,0,1) ;
    }
