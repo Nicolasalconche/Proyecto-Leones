@@ -5,6 +5,7 @@
     .botoncito{
         translate: 300px -100px;
     }
+    
 }
 
 @media(max-width:450px){
@@ -14,11 +15,16 @@
     .botoncito{
         translate: 150px -50px;
     }
+    
 }
 
-@media(max-width:320px){
+@media(max-width:370px){
+    .card-3{
+        height: 650px;
+    }
     
     .botoncito{
         translate: 100px -50px;
     }
 }
+
