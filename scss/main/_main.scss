@@ -1,7 +1,20 @@
 .principio{
     background-image: url(../assets/hernan.png); 
     background-position: -160px;
+    position: relative;
+    
+    &:before{
+        content: '';
+        position: absolute;
+        
+        width: 100%;
+        height: 100%;
+        background: #ffffff ;
+        opacity: 0.5;
+    }
+    
 }
+
 
 .plan{
     display: flex;
@@ -60,9 +73,11 @@
    }
 
    .titulo{
+    position: relative;
     color: #1B2F62;
    }
 
    .titulo-1{
+    position: relative;
     color:rgba(255,128,0,1) ;
    }
