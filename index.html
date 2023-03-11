@@ -18,22 +18,42 @@
     </head>
     <body >
         <header>
-            <nav class="navbar bg-body-tertiary" id="nav">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <img src="./assets/logo-remera-Abril-2019.png" alt="Logo" width="140" height="140" class="d-inline-block align-text-top"> FAT LEONES
-                  </a>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                <div class="container">
+                    <a class="navbar-brand" href="#page-top"><img src="./assets/logo-remera-Abril-2019.png" id="logoFat"  alt="logo de negocio" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars ms-1"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="#somos">¿Quienes somos? </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">Historia </a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Misión
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#projects">Misión</a></li>
+                                  <li><a class="dropdown-item" href="#vision">Visión</a></li>
+                                  <li><a class="dropdown-item" href="#objetivos">Objetivos</a></li>
+                                </ul>
+                            <li class="nav-item"><a class="nav-link" href="#plan-t">Plan Trienal</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Donar</a></li>
+                        </ul>
+                    </div>
                 </div>
-              </nav>
+            </nav>
         </header>
         <main>
-            <section>
+            <section class="portada" >
                   <div>
                     <img src="./assets/portada2.png" class="d-block w-100" alt="...">
                 </div>
-                <button class="botoncito"> Donar</button>
-            <section >
-                <h2 class="section-heading text-center">Quienes somos?</h2>
+                <button class="botoncito" id="somos"> Donar</button>
+            <section>
+                <h2 class="section-heading text-center" >Quienes somos?</h2>
                 <div class="plan">
                     <div class="card-3 shadow" >
                         <p>•	Los jugadores de campo pueden tener sus dos manos pero solo pueden poseer una pierna. Por su parte, los guardametas pueden poseer sus dos piernas pero solo tener una mano.</p>
@@ -123,7 +143,6 @@
             </section>
             <section class="projects-section bg-light" id="projects" >
             <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="./assets/mision.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
@@ -133,8 +152,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="vision">
                     <div class="col-lg-6"><img class="img-fluid" src="./assets/vision.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
@@ -148,8 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
+                <div class="row gx-0 justify-content-center" id="objetivos">
                     <div class="col-lg-6"><img class="img-fluid" src="./assets/objetivos.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
@@ -168,7 +185,7 @@
                 </div>
             </div>
         </section>
-        <section style="background-color: black; color: white;">
+        <section style="background-color: black; color: white;" id="plan-t">
             <h2 class="section-heading text-center">Plan Trienal:</h2>    
             <div class="plan">
                 <div class="page">
@@ -198,7 +215,7 @@
             </div>
         </section>
         </main>
-        <footer>
+        <footer id="contacto">
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">Información</h2>
                 <hr class="divider" />
